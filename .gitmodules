@@ -1,0 +1,9 @@
+[submodule "external/KaMinPar"]
+	path = external/KaMinPar
+	url = git@github.com:KaHIP/KaMinPar.git
+[submodule "external/kamping"]
+	path = external/kamping
+	url = git@github.com:kamping-site/kamping.git
+[submodule "external/KaGen"]
+	path = external/KaGen
+	url = git@github.com:KarlsruheGraphGeneration/KaGen.git
