@@ -143,7 +143,7 @@ int main(int argc, char* argv[]) {
                              "kamping-dispatch", "kamping", "kamping-sparse",
                              "kaminpar"}))
       ->required();
-  cli.add_option("-G,--graph", app.graph_filename)->required();
+  cli.add_option("-G,--graph,--kagen_option_string", app.graph_filename)->required();
 
   cli.add_option("-k,--k", app.k, "Number of blocks in the partition.")
       ->capture_default_str();

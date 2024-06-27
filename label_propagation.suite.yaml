@@ -1,0 +1,15 @@
+name: label_propagation
+executable: KaMPIngLabelPropagation
+ncores: [1, 2, 4, 8, 16, 48, 192, 768, 3072]
+time_limit: 60
+threads_per_rank: [1]
+graphs:
+  - generator: kagen
+    type: rgg2d
+    N: 20
+    M: 25
+    scale_weak: TRUE
+config:
+  - preset: [mpi, kamping, kaminpar]
+    k: [16]
+    seed: [1, 2, 3]
